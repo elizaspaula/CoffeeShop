@@ -7,70 +7,99 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../CoffeeShop/css/global.css" />
+    <link rel="stylesheet" href="../CoffeeShop/css/landing.css" />
     <title>Coffee Shop - Home</title>
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <img src="logo" />
-        <h2><a href=""> nitro </a></h2>
-        <nav>
-          <ul>
+    <!-- NAV BAR  -->
+    <header class="index__header">
+      <div class="index__nitro-navbar">
+        <img
+          src="../CoffeeShop/assets/Assets-Package/coffee-beans-logo-and-footer.svg"
+          alt="banner"
+        />
+        <h1 class="index__header-title">nitro</h1>
+        <nav class="index__nav">
+          <ul class="index__nav-list" style="list-style-type: none">
             <li><a href="">ABOUT</a></li>
-            <li><a href="">MENU</a></li>
-            <li><a href="">SHOP NOW</a></li>
+            <li><a href="./pages/menu_01.html ">MENU</a></li>
+            <li><a href="#shop">SHOP NOW</a></li>
           </ul>
-          <h1>Nitro Coffee</h1>
-          <p>
-            Coffee is a brewed drink prepared from roasted coffee beans, the
-            seeds of berries from certain Coffea species
-          </p>
-          <button name="shop">SHOP NOW</button> <img src="cofee bag" />
         </nav>
       </div>
+      <section class="nitro__coffee">
+        <div class="index__nitro-coffee">
+          <h1 class="index__title">Nitro Coffee</h1>
+          <p class="index__header-parag">
+            Coffee is a brewed drink prepared from roasted coffee beans, the
+            seeds of berries from certain Coffea species.
+          </p>
+          <button name="shop" id="shop">SHOP NOW</button>
+          <img
+            class="index__coffee-bag"
+            src="./assets/Assets-Package/coffeebeans.png"
+            alt="coffee bag"
+          />
+        </div>
+      </section>
     </header>
     <main>
-      <section class="products">
-        <h2>Our products</h2>
-        <div class="coffeeBeans">
+      <!-- PRODUCTS -->
+      <section class="index__products">
+        <h2 class="index__products-title">Our products</h2>
+        <div class="index__coffee-beans">
           <img src="coffee beans" />
-          <h3>Coffee Beans</h3>
-          <p>$18.33</p>
+          <h3 class="index__products-item">Coffee Beans</h3>
+          <p class="index__products-price">$18.33</p>
         </div>
-        <div class="coldBrew">
+        <div class="index__cold-brew">
           <img src="cold brew" />
-          <h3>Cold Brew</h3>
-          <p>$4.99</p>
+          <h3 class="index__products-item">Cold Brew</h3>
+          <p class="index__products-price">$4.99</p>
         </div>
 
-        <div class="inHouseBrew">
+        <div class="index_inhouse-brew">
           <img src="in house Brew.jpg" />
-          <h3>In-House Brew</h3>
-          <p>$2.99</p>
+          <h3 class="index__products-item">In-House Brew</h3>
+          <p class="index__products-price">$2.99</p>
         </div>
         <button name="viewAll">VIEW ALL</button>
       </section>
-      <section class="discount">
-        <p>Get 20% off your first order with code: FirstNitro</p>
-      </section>
+      <div class="index__discount">
+        <p class="index__discount-description">
+          Get 20% off your first order with code: FirstNitro
+        </p>
+      </div>
     </main>
-    <footer>
-      <div class="address">
-        <h3>Address</h3>
-        <p>503 Broadway Penthouse</p>
-        <p>New York</p>
-      </div>
-      <div class="hours">
-        <h3>Hours</h3>
-        <p>Monday - Friday: 9am - 7pm</p>
-        <p>Saturday - Sunday: 10am - 5pm</p>
-      </div>
-      <div class="social">
-        <h3>Social</h3>
-        <img href="facebook" />
-        <img href="yelp" />
-        <img href="instagran" />
-      </div>
+    <footer class="index__footer">
+      <!-- ADDRESS -->
+      <section>
+        <div class="index__address">
+          <h3 class="index__address-title">Address</h3>
+          <p class="index__address-parag">503 Broadway Penthouse</p>
+          <p class="index_address-parag">New York</p>
+        </div>
+      </section>
+
+      <!-- HOURS -->
+      <section>
+        <div class="index__hours">
+          <h3 class="index__hours-title">Hours</h3>
+          <p class="index__hours-parag">Monday - Friday: 9am - 7pm</p>
+          <p class="index__hours-parag">Saturday - Sunday: 10am - 5pm</p>
+        </div>
+      </section>
+
+      <!-- SOCIAL INFO -->
+      <section class="social">
+        <div class="index__social">
+          <h3 class="index__social-title">Social</h3>
+          <img href="facebook" />
+          <img href="yelp" />
+          <img href="instagran" />
+        </div>
+      </section>
     </footer>
   </body>
 </html>

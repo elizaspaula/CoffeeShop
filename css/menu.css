@@ -1,0 +1,91 @@
+.menu__header-title {
+  color: #393939;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.menu__title {
+  color: white;
+  background-color: #393939;
+  font-size: 60px;
+  font-weight: 300;
+  min-width: 280px;
+  max-width: 300px;
+  min-height: 180px;
+  max-height: 200px;
+  text-align: center;
+}
+
+/* --- MENU CSS style --- */
+.menu__main {
+  color: #393939;
+}
+
+.menu__nav-list {
+  font-size: 21px;
+}
+
+.menu__title_div {
+  background-image: url(../assets/Assets-Package/coffee-circle.jpg);
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 575px;
+  max-width: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu__main-list {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.menu__main-nav {
+  background-color: #393939;
+}
+
+.menu__main-list a {
+  text-decoration: none;
+  color: white;
+}
+
+/* --- BODY CSS style --- */
+
+.menu__hot-drinks,
+.menu__pastries {
+  background-color: #fff0ed;
+}
+
+.menu__cold-drinks {
+  background-color: #f7f7f7;
+}
+
+.menu__drinks-title {
+  color: #393939;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+}
+.menu__drinks-item {
+  color: #393939;
+  font-size: 33px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.menu__drinks-description {
+  color: #393939;
+  font-size: 18px;
+  font-weight: 400;
+  width: 33%;
+  text-align: center;
+  font-style: italic;
+}
+
+.menu__drinks-price {
+  color: #5bacc3;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
