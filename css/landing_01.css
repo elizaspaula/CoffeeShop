@@ -1,0 +1,92 @@
+.index__header-title {
+  color: #393939;
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.index__nitro-navbar {
+  background-color: #fff0ed;
+}
+
+.index__nav-list {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.index__nitro-coffee {
+  background-color: #fff0ed;
+}
+
+.index__title,
+.index__products-title {
+  font-size: 60px;
+  font-weight: 300;
+  color: #393939;
+}
+
+.index__header-parag,
+.index__hours-parag,
+.index__address-parag {
+  font-size: 18px;
+  font-weight: 400;
+  color: #393939;
+}
+
+.button__shop-now,
+.button__view-all {
+  background-color: #5bacc3;
+  color: white;
+  font-size: 21px;
+  border: none;
+}
+
+/*---PRODUCTS---*/
+.index__products-item,
+.index__address-title,
+.index__hours-title,
+.index__social-title {
+  font-size: 33px;
+  font-weight: 300;
+  color: #393939;
+}
+
+.index__products-price {
+  font-size: 21px;
+  color: #5bacc3;
+}
+
+.index__discount-description {
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+  margin: 0px;
+  margin-left: 100px;
+}
+
+.index__discount {
+  background-color: #393939;
+  min-width: 100%;
+  max-width: 100%;
+  margin-left: 50p;
+}
+
+.footer__div {
+  background-color: #fff0ed;
+}
+
+.icons {
+  min-width: 50px;
+  max-width: 120px;
+}
+
+.index__hours-bold {
+  font-weight: bold;
+}
+
+.index__discount-bold {
+  font-weight: 700;
+}
+
+.index__coffee-bag {
+  width: 6%;
+}

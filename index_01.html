@@ -7,24 +7,28 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../CoffeeShop/css/global.css" />
-    <link rel="stylesheet" href="../CoffeeShop/css/landing.css" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="../CoffeeShop/css/landing_01.css" />
     <title>Coffee Shop - Home</title>
   </head>
   <body>
     <!-- NAV BAR  -->
     <header class="index__header">
       <div class="index__nitro-navbar">
-        <img
-          src="../CoffeeShop/assets/Assets-Package/coffee-beans-logo-and-footer.svg"
-          alt="banner"
-        />
+        <a href="./index_01.html">
+          <img
+            class="icons"
+            src="../CoffeeShop/assets/Assets-Package/coffee-beans-logo-and-footer.svg"
+            alt="banner"
+          />
+        </a>
         <h1 class="index__header-title">nitro</h1>
         <nav class="index__nav">
           <ul class="index__nav-list" style="list-style-type: none">
-            <li><a href="">ABOUT</a></li>
+            <li><a href="./index_01.html">ABOUT</a></li>
             <li><a href="./pages/menu_01.html ">MENU</a></li>
-            <li><a href="#shop">SHOP NOW</a></li>
+            <li><a href="./pages/menu_01.html ">SHOP NOW</a></li>
           </ul>
         </nav>
       </div>
@@ -35,7 +39,12 @@
             Coffee is a brewed drink prepared from roasted coffee beans, the
             seeds of berries from certain Coffea species.
           </p>
-          <button name="shop" id="shop">SHOP NOW</button>
+          <a href="./pages/menu_01.html">
+            <button name="shop" class="button__shop-now" id="shop">
+              SHOP NOW
+            </button>
+          </a>
+
           <img
             class="index__coffee-bag"
             src="./assets/Assets-Package/coffeebeans.png"
@@ -49,57 +58,84 @@
       <section class="index__products">
         <h2 class="index__products-title">Our products</h2>
         <div class="index__coffee-beans">
-          <img src="coffee beans" />
+          <img
+            src="./assets/Assets-Package/coffeebeans.png"
+            alt="coffee beans"
+          />
           <h3 class="index__products-item">Coffee Beans</h3>
-          <p class="index__products-price">$18.33</p>
+          <p class="index__products-price">$18.99</p>
         </div>
         <div class="index__cold-brew">
-          <img src="cold brew" />
+          <img src="./assets/Assets-Package/coldbrew.png" alt="coffee cup" />
           <h3 class="index__products-item">Cold Brew</h3>
           <p class="index__products-price">$4.99</p>
         </div>
 
         <div class="index_inhouse-brew">
-          <img src="in house Brew.jpg" />
+          <img
+            src="./assets/Assets-Package/inhousebrew.png"
+            alt="in-house brew"
+          />
           <h3 class="index__products-item">In-House Brew</h3>
           <p class="index__products-price">$2.99</p>
         </div>
-        <button name="viewAll">VIEW ALL</button>
+        <a href="./pages/menu_01.html">
+          <button name="viewAll" class="button__view-all">VIEW ALL</button>
+        </a>
       </section>
       <div class="index__discount">
         <p class="index__discount-description">
-          Get 20% off your first order with code: FirstNitro
+          Get 20% off your first order with code:
+          <span class="index__discount-bold"> FirstNitro</span>
         </p>
       </div>
     </main>
     <footer class="index__footer">
-      <!-- ADDRESS -->
-      <section>
+      <div class="footer__div">
+        <!-- ADDRESS -->
         <div class="index__address">
           <h3 class="index__address-title">Address</h3>
           <p class="index__address-parag">503 Broadway Penthouse</p>
           <p class="index_address-parag">New York</p>
         </div>
-      </section>
-
-      <!-- HOURS -->
-      <section>
+        <!-- HOURS -->
         <div class="index__hours">
           <h3 class="index__hours-title">Hours</h3>
-          <p class="index__hours-parag">Monday - Friday: 9am - 7pm</p>
-          <p class="index__hours-parag">Saturday - Sunday: 10am - 5pm</p>
+          <p class="index__hours-parag">
+            <spam class="index__hours-bold"> Monday - Friday:</spam> 9am - 7pm
+          </p>
+          <p class="index__hours-parag">
+            <spam class="index__hours-bold"> Saturday - Sunday:</spam>10am - 5pm
+          </p>
         </div>
-      </section>
-
-      <!-- SOCIAL INFO -->
-      <section class="social">
+        <!-- SOCIAL INFO -->
         <div class="index__social">
           <h3 class="index__social-title">Social</h3>
-          <img href="facebook" />
-          <img href="yelp" />
-          <img href="instagran" />
+          <a href="https://www.facebook.com/">
+            <img
+              class="icons"
+              src="./assets/Assets-Package/Facebook-Icon.svg"
+              alt="facebook"
+            />
+          </a>
+
+          <a href="https://www.yelp.com/">
+            <img
+              class="icons"
+              src="./assets/Assets-Package/Yelp-Icon.svg"
+              alt="yelp"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/">
+            <img
+              class="icons"
+              src="./assets/Assets-Package/Instagram-Icon.svg"
+              alt="instagram"
+            />
+          </a>
         </div>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
