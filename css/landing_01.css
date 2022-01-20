@@ -1,6 +1,8 @@
+/*---NAV BAR ---*/
+
 .index__header-title {
   color: #393939;
-  font-size: 43px;
+  font-size: 2.06rem;
   font-weight: 300;
 }
 
@@ -9,9 +11,11 @@
 }
 
 .index__nav-list {
-  font-size: 21px;
+  font-size: 1.313rem;
   font-weight: 400;
 }
+
+/*---NITRO COFFEE ---*/
 
 .index__nitro-coffee {
   background-color: #fff0ed;
@@ -19,7 +23,7 @@
 
 .index__title,
 .index__products-title {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 300;
   color: #393939;
 }
@@ -27,16 +31,17 @@
 .index__header-parag,
 .index__hours-parag,
 .index__address-parag {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   color: #393939;
 }
 
 .button__shop-now,
 .button__view-all {
+  padding: 0.5rem;
   background-color: #5bacc3;
   color: white;
-  font-size: 21px;
+  font-size: 1.313rem;
   border: none;
 }
 
@@ -45,29 +50,28 @@
 .index__address-title,
 .index__hours-title,
 .index__social-title {
-  font-size: 33px;
+  font-size: 2.063rem;
   font-weight: 300;
   color: #393939;
 }
 
 .index__products-price {
-  font-size: 21px;
+  font-size: 1.313rem;
   color: #5bacc3;
 }
 
 .index__discount-description {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-weight: 400;
   color: white;
   margin: 0px;
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 .index__discount {
   background-color: #393939;
   min-width: 100%;
   max-width: 100%;
-  margin-left: 50p;
 }
 
 .footer__div {
@@ -79,6 +83,11 @@
   max-width: 120px;
 }
 
+.products__image {
+  min-height: 15rem;
+  max-height: 34.375rem;
+}
+
 .index__hours-bold {
   font-weight: bold;
 }
@@ -88,5 +97,6 @@
 }
 
 .index__coffee-bag {
-  width: 6%;
+  min-width: 6%;
+  max-width: 100%;
 }
