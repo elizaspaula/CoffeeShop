@@ -12,39 +12,60 @@
     <title>Coffee Shop - Menu</title>
   </head>
   <body>
-    <header>
-      <!-- NAV BAR -->
-      <a href="../index_01.html">
-        <img src="../assets/Assets-Package/coffee-beans-logo-and-footer.svg" />
-      </a>
-    
-      <h1 class="menu__header-title">nitro</h1>
-      <nav class="menu__nav">
-        <ul class="menu__nav-list" style="list-style-type: none">
-          <li><a href="../index_01.html">ABOUT</a></li>
-          <li><a href="./menu_01.html">MENU</a></li>
-          <li><a href="./menu_01.html">SHOP NOW</a></li>
-        </ul>
-      </nav>
+    <!-- NAV BAR SECTION -->
+    <header class="main-header">
+      <div class="main-header__div">
+        <a href="../index_01.html">
+          <img
+            class="icons"
+            src="../assets/Assets-Package/coffee-beans-logo-and-footer.svg"
+            alt="logo"
+          />
+        </a>
+        <h1 class="menu-header__title">nitro</h1>
+        <nav class="menu-nav">
+          <ul class="menu-nav__list" style="list-style-type: none">
+            <li class="menu-nav__item">
+              <a class="menu-nav__link" href="../index_01.html">ABOUT</a>
+            </li>
+            <li class="menu-nav__item">
+              <a class="menu-nav__link" href="./menu_01.html">MENU</a>
+            </li>
+            <li class="menu-nav__item">
+              <a class="menu-nav__link" href="./menu_01.html">SHOP NOW</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <!-- MENU -->
+      <!-- MENU SECTION -->
       <section class="menu">
-        <div class="menu__title_div">
+        <div class="menu__title-div">
           <h1 class="menu__title">MENU</h1>
         </div>
         <nav class="menu__main-nav">
           <div class="menu__main-div">
             <ul class="menu__main-list" style="list-style-type: none">
-              <li><a href="#hot-drinks">HOT DRINKS</li> </a> 
-              <li> <a href="#cold-drinks"> COLD DRINKS</li> </a> 
-              <li> <a href="#pastries"> PASTRIES</li> </a> 
+              <li class="menu__main-list-item">
+                <a class="menu__main-list-link" href="#hot-drinks">
+                  HOT DRINKS
+                </a>
+              </li>
+              <li class="menu__main-list-item">
+                <a class="menu__main-list-link" href="#cold-drinks">
+                  COLD DRINKS
+                </a>
+              </li>
+              <li class="menu__main-list-item">
+                <a class="menu__main-list-link" href="#pastries"> PASTRIES </a>
+              </li>
             </ul>
           </div>
         </nav>
       </section>
 
-      <!-- HOT DRINKS -->
+      <!--  DRINKS SECTION -->
       <section class="section__hot-drinks">
         <div class="menu__hot-drinks" id="hot-drinks">
           <h2 class="menu__drinks-title">Hot Drinks</h2>

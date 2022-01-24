@@ -9,4 +9,42 @@ html {
 body {
   font-family: "Open Sans";
   font-weight: 400;
+  margin: 0;
+}
+
+/*---NAV BAR ---*/
+
+.main-header__div {
+  background-color: #fff0ed;
+}
+
+.menu-header__title {
+  display: inline-block;
+  color: #393939;
+  font-size: 3.06rem;
+  font-weight: 300;
+}
+
+.menu-nav {
+  display: inline-block;
+}
+
+.menu-nav__list {
+  font-size: 1.313rem;
+}
+
+.menu-nav__item {
+  display: inline-block;
+  margin: 0.313rem;
+  padding: 0.063rem;
+}
+
+.menu-nav__link {
+  text-decoration: none;
+  color: #393939;
+}
+
+.menu-nav__link:hover {
+  color: #5bacc3;
+  cursor: pointer;
 }
