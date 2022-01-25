@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* border: 2px dashed grey; */
 }
 
 html {
@@ -15,11 +16,18 @@ body {
 /*---NAV BAR ---*/
 
 .main-header__div {
+  display: flex;
+  justify-content: space-between;
   background-color: #fff0ed;
 }
 
+.main-header__div-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu-header__title {
-  display: inline-block;
   color: #393939;
   font-size: 3.06rem;
   font-weight: 300;
@@ -31,6 +39,8 @@ body {
 
 .menu-nav__list {
   font-size: 1.313rem;
+  /* display: flex;
+  flex-direction: row-reverse; */
 }
 
 .menu-nav__item {
