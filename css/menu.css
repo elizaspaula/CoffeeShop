@@ -1,4 +1,4 @@
-/* --- BANNER NAV SECTION --- */
+/* --- HERO SECTION --- */
 
 .menu__title {
   color: white;
@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  position: relative;
 }
 
 .menu__title-div {
@@ -22,7 +23,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url(../assets/Assets-Package/coffee-circle.jpg);
+  background-image: url(../assets/Images/coffee-circle.jpg);
   min-width: 100%;
   max-width: 100%;
   min-height: 35.938rem;
@@ -30,6 +31,26 @@
   background-position: center;
   background-size: cover;
 }
+
+.menu__title::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0.3125rem solid #5bacc3;
+  top: -1.25rem;
+  left: -1.25rem;
+}
+
+.menu__title-div h1 {
+  text-transform: uppercase;
+}
+
+/* .menu__title-border {
+  border: 3px solid red;
+  min-height: 35.938rem;
+  max-width: 37.5rem;
+} */
 
 /* --- MENU NAV SECTION --- */
 
@@ -57,6 +78,10 @@
   margin: 5px;
   text-align: center;
   /* border-left: 4px solid #5bacc3; */
+}
+
+.menu__main-list-item a {
+  text-transform: uppercase;
 }
 
 .menu__main-list-link {

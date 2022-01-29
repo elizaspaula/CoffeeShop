@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 
-/*---NAV BAR ---*/
+/*---NAV BAR SECTION---*/
 
 .main-header__div {
   display: flex;
@@ -49,6 +49,10 @@ body {
   display: inline-block;
   margin: 0.313rem;
   padding: 0.063rem;
+}
+
+.menu-nav__item a {
+  text-transform: uppercase;
 }
 
 .menu-nav__link {
