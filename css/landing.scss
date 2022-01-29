@@ -1,6 +1,9 @@
+@use "./partials/variable" as *;
+
 /*---HERO SECTION ---*/
+
 .header {
-  background-color: #fff0ed;
+  background-color: $primary-color;
 }
 
 .index-coffee {
@@ -26,7 +29,7 @@
 .index-coffee__title {
   font-size: 3.75rem;
   font-weight: 300;
-  color: #393939;
+  color: $graphite;
   margin: 10px 0px 10px 0px;
 }
 
@@ -35,15 +38,15 @@
 .index-address__parag {
   font-size: 1.125rem;
   font-weight: 400;
-  color: #393939;
+  color: $graphite;
 }
 
 .btn__shop-now,
 .btn__view-all,
 .btn-learn-more {
   padding: 1rem 2.5rem;
-  background-color: #5bacc3;
-  color: #fff;
+  background-color: $secondary-color;
+  color: $white;
   font-size: 1.313rem;
   border: none;
   text-decoration: none;
@@ -54,21 +57,22 @@
   content: "";
   width: 100%;
   height: 100%;
-  border: 0.125rem solid #393939;
+  border: 0.125rem solid $graphite;
   position: absolute;
   top: -0.4125rem;
   left: -0.4125rem;
 }
 
 /*---PRODUCTS SECTION---*/
+
 h3 {
   font-size: 2.063rem;
   font-weight: 300;
-  color: #393939;
+  color: $graphite;
 }
 
 .index-products__section {
-  background-color: #f7f7f7;
+  background-color: $light-gray;
 }
 
 .index-products__item {
@@ -79,12 +83,13 @@ h3 {
   text-align: center;
   font-size: 3.75rem;
   font-weight: 300;
-  color: #393939;
+  color: $graphite;
   margin: 0px;
   padding: 40px;
 }
 
 /* --- PRODUCTS CARD CSS --- */
+
 .index-products__div {
   padding: 40px 100px;
 }
@@ -105,13 +110,13 @@ h3 {
 .index-products__list li {
   text-align: center;
   border: 1px solid #c9c9c9;
-  box-shadow: 0px 5px 9px -1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 9px -1px rgb(0 0 0 / 15%);
   border-radius: 10px;
   min-width: 330px;
   max-width: 350px;
   min-height: 440px;
   max-height: 460px;
-  background-color: #fff;
+  background-color: $white;
 }
 
 .index-products__list li:hover {
@@ -126,12 +131,11 @@ h3 {
   justify-content: center;
   padding-bottom: 40px;
 }
-
 .btn__view-all::after {
   content: "";
   width: 100%;
   height: 100%;
-  border: 0.125rem solid #393939;
+  border: 0.125rem solid $graphite;
   position: absolute;
   top: -0.4125rem;
   left: -0.4125rem;
@@ -141,7 +145,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff0ed;
+  background-color: $primary-color;
   padding: 22px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -154,7 +158,7 @@ h3 {
 .index-products__item {
   font-size: 2.063rem;
   font-weight: 300;
-  color: #393939;
+  color: $graphite;
   margin-top: 21px;
   margin-bottom: 0;
   text-align: left;
@@ -168,13 +172,14 @@ h3 {
 
 .index-products__price {
   font-size: 2.063rem;
-  color: #5bacc3;
+  color: $secondary-color;
   text-align: center;
 }
 
 /*--DISCOUNT ---*/
+
 .index-discount {
-  background-color: #393939;
+  background-color: $graphite;
   max-width: 90%;
   margin-left: 6.25rem;
   margin-right: 6.25rem;
@@ -184,7 +189,7 @@ h3 {
 .index-discount__description {
   font-size: 2.813rem;
   font-weight: 400;
-  color: #fff;
+  color: $white;
   text-align: center;
   padding: 2.5rem 0.9375rem;
 }
@@ -231,7 +236,7 @@ h3 {
   content: "";
   width: 98%;
   height: 98%;
-  border: 0.3125rem solid #5bacc3;
+  border: 0.3125rem solid $secondary-color;
   position: absolute;
   top: -1.25rem;
   left: -1.25rem;
@@ -249,7 +254,7 @@ h3 {
   text-align: left;
   font-size: 3.75rem;
   font-weight: 300;
-  color: #393939;
+  color: $graphite;
   margin: 0px;
 }
 
@@ -271,7 +276,7 @@ h3 {
   content: "";
   width: 100%;
   height: 100%;
-  border: 0.125rem solid #393939;
+  border: 0.125rem solid $graphite;
   position: absolute;
   top: -0.4125rem;
   left: -0.4125rem;
@@ -282,11 +287,12 @@ h3 {
 }
 
 /* --- FOOTER--- */
+
 .index-footer__div {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #fff0ed;
+  background-color: $primary-color;
   padding: 20px;
 }
 
@@ -303,4 +309,4 @@ h3 {
 
 .index-hours__bold {
   font-weight: bold;
-}/*# sourceMappingURL=landing.css.map */
+}

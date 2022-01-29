@@ -1,0 +1,58 @@
+@use "./partials/variable" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font;
+  font-weight: 400;
+  margin: 0;
+}
+
+/*---NAV BAR SECTION---*/
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-color;
+  padding: 0px 20px;
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: $graphite;
+    font-size: 3.06rem;
+    font-weight: 300;
+  }
+  .nav {
+    &__item {
+      display: inline-block;
+      margin: 0.313rem;
+      padding: 0.063rem;
+
+      a {
+        text-transform: uppercase;
+      }
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $graphite;
+
+      &:hover {
+        color: $secondary-color;
+        cursor: pointer;
+      }
+    }
+  }
+}
